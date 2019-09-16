@@ -1,4 +1,4 @@
-task Seqware_BWA_Workflow {
+task Seqware_BWA {
     Array[File] reads
     File reference_gz
     File reference_gz_fai
