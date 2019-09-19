@@ -41,5 +41,5 @@ task Seqware_BWA {
 }
 
 workflow Seqware_BWA_Workflow {
-    call Seqware_BWA_Workflow
+    call Seqware_BWA
 }
