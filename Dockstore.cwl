@@ -113,7 +113,7 @@ outputs:
     type: File
     outputBinding:
       glob: $(inputs.output_dir + '/' + inputs.output_file_basename + '.unmapped.bam')
-baseCommand: [/start.sh , python, /home/seqware/Seqware-BWA-Workflow/run_seqware_workflow.py]
+baseCommand: [/start2.sh , python, /home/seqware/Seqware-BWA-Workflow/run_seqware_workflow.py]
 doc: |
 
     PCAWG uniform alignment workflow uses the popular short read aligner tool BWA MEM (https://github.com/lh3/bwa)
