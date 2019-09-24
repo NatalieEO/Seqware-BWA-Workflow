@@ -12,7 +12,7 @@ task Seqware_BWA {
     String download_reference_files
 
     command {
-        /script.sh \
+        /start.sh \
         python /home/seqware/Seqware-BWA-Workflow/run_seqware_workflow.py \
         --files ${sep=' ' reads} \
         --output-dir ${output_dir} \
